@@ -36,7 +36,7 @@ class UserForm extends Component {
         const { formStep, firstName, lastName, email, occupation, city, bio } = this.state
         const values = { firstName, lastName, email, occupation, city, bio}
         
-        switch(step) {
+        switch(formStep) {
             case 1:
                 return (
                     <h3>Form User Details</h3>
